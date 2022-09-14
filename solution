@@ -38,4 +38,4 @@ push the changes to git.
     - name: Copy IP address
       copy:
         dest: /opt/ipdir/ip_list
-        content: "IPADDR={{ lookup('file', 'ip.yml' | from_yaml ).split() | ipaddr| unique| join(',')| default('none', true) }}"
+        content: "IPADDR={{ lookup('file', 'ip.yml' ).split() | ipaddr| unique| join(',')| default('none', true) }}"
