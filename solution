@@ -5,7 +5,7 @@ Collect ip and store in a file.
 Find project from  git clone https://github.com/rohitmeachu312/ex447-8.ip-collect-from-SINGLE-file.git 
 There is file name ip.yml with list of ip address. Store those ips inside /opt/ipdir/ip_list file.
 
-conetnts or ip.yml
+conetnts of ip.yml
 -----------------------
 
 file:
